@@ -1,0 +1,238 @@
+body, ul, li, {
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+figure {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+h1{
+    margin: 0%;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+#header {
+    margin: 0 auto;
+    padding: 30px  30px;
+    text-align: center;
+    width: 960px;
+  
+}
+#header ul {
+    margin: 0;
+    padding: 20px 0 0;
+}
+#header ul li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0 19px;
+}
+#header ul li a {
+    color: #000000;
+    display: inline-block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 0 0 3px;
+    text-decoration: none;
+    
+}
+#header ul li a:hover, #header ul li.selected a {
+    color: #64a4cc;
+}
+
+main {
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+}
+
+section {
+    display: block;
+}
+
+#main > ul li a img {
+    border: 2px solid #1a1a1a;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: .9;
+    transition: 0.5s ease-in-out;
+}
+
+/* #fly {
+    left: 50%;
+    margin-left: -360px;
+    margin-top: -171px;
+    padding: 400px 0 0 470px;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    width: 490px;
+} */
+
+#fly{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    margin-top: -770px;
+    width: 450px;
+    text-align: left;
+}
+#main #meio section h2 {
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    font-family: 'Poller One', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 8px;
+    padding: 23px 27px 20px;
+    text-transform: uppercase;
+}
+#main #meio section span {
+    background: #252525;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 0;
+    padding: 12px 27px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main #meio #fly a {
+    background: #2566f1;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0 0;
+    padding: 26px 27px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#main #meio #fly a:hover {
+    background: #0025f3;
+}
+#main > ul {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 24px 0 0;
+    width: 960px;
+}
+#main > ul li {
+	display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+}
+#main > ul li a img {
+    border: 2px solid #1a1a1a;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+}
+#main > ul li a:hover img {
+	opacity: 3;
+}
+#main > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+
+#main > ul li a {
+	color: #000;
+	display: block;
+	font-family: 'Poller One', cursive;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+#footer {
+	background: #252525;
+	margin: auto;
+	padding: 36px 0 42px;
+    
+}
+#footer section {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+
+#footer section p {
+    color: #fff;
+    float: left;
+    line-height: 44px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+#footer section ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#footer section ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
+#footer section ul li a {
+	background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
+	display: block;
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 44px;
+}
+
+#footer section ul li #twitter {
+	background-position: 0 0;
+}
+#footer section ul li #twitter:hover {
+	background-position: -44px 0;
+}
+#footer section ul li #facebook {
+	background-position: 0 -44px;
+}
+#footer section ul li #facebook:hover {
+	background-position: -44px -44px;
+}
+#footer section ul li #googleplus {
+	background-position: 0 -88px;
+}
+#footer section ul li #googleplus:hover {
+	background-position: -44px -88px;
+}
+#footer section ul li #pinterest {
+	background-position: 0 -132px;
+}
+#footer section ul li #pinterest:hover {
+	background-position: -44px -132px;
+}

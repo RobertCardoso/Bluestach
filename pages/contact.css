@@ -1,0 +1,184 @@
+body, ul, li, {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+figure {
+    margin: 0;
+}
+
+h1{
+    margin: 0%;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+#header {
+    margin: 0 auto;
+    padding: 30px  30px;
+    text-align: center;
+    width: 960px;
+  
+}
+#header ul {
+    margin: 0;
+    padding: 20px 0 0;
+}
+#header ul li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0 19px;
+}
+#header ul li a {
+    color: #000000;
+    display: inline-block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 0 0 3px;
+    text-decoration: none;
+    
+}
+#header ul li a:hover, #header ul li.selected a {
+    color: #64a4cc;
+}
+
+#footer {
+	background: #252525;
+	margin: auto;
+	padding: 36px 0 42px;
+    
+}
+#footer section {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+
+#footer section p {
+    color: #fff;
+    float: left;
+    line-height: 44px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+#footer section ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#footer section ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
+#footer section ul li a {
+	background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
+	display: block;
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 44px;
+}
+
+#main {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+
+}
+#main  h1 {
+color: #fff;
+display: inline;
+font-family: 'Poller One', cursive;
+font-size: 35px;
+font-weight: normal;
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+}
+#main h1 span {
+background: #252525;
+display: inline-block;
+padding: 15px 28px 12px;
+}
+#main form {
+	margin: 0 auto;
+	padding: 24px 0 0;
+	width: 620px;
+}
+#main form input, #main form textarea {
+	border: 2px solid #252525;
+	color: #252525;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0 0 37px;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 596px;
+}
+#main form textarea {
+	height: 175px;
+	overflow: auto;
+	resize: none;
+}
+#main form #send {
+	background: #252525;
+	color: #fff;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 20px 28px;
+	width: auto;
+}
+#main form #send:hover {
+	background: #fff;
+	color: #252525;
+	cursor: pointer;
+}
+#results {
+
+	margin-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30pt;
+	text-align:center;
+	font-style:italic;
+
+
+#footer section ul li #twitter {
+	background-position: 0 0;
+}
+#footer section ul li #twitter:hover {
+	background-position: -44px 0;
+}
+#footer section ul li #facebook {
+	background-position: 0 -44px;
+}
+#footer section ul li #facebook:hover {
+	background-position: -44px -44px;
+}
+#footer section ul li #googleplus {
+	background-position: 0 -88px;
+}
+#footer section ul li #googleplus:hover {
+	background-position: -44px -88px;
+}
+#footer section ul li #pinterest {
+	background-position: 0 -132px;
+}
+#footer section ul li #pinterest:hover {
+	background-position: -44px -132px;
+}
